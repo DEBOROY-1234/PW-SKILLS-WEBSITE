@@ -1,0 +1,122 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+body{
+    background-color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: 0 34px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav-logo{
+    width: 240px;
+
+}
+
+.header_nav-items{
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+
+.header_nav-item a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_nav-item a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+/* main */
+/* section 1 */
+
+.hero{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom :64px;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.main_text{
+    width: 700px;
+}
+
+.main_img img{
+    width: 700px;
+    height: 300px;
+}
+
+.main_text-heading{
+    font-size: 43px;
+    color: gray;
+}
+
+/* section 2=> card */
+
+.showcase{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.a h3{
+    color: #818181;
+    font-weight: 500;
+    margin-top: 7px;
+   
+}
+
+.b h3{
+    color: #818181;
+    font-weight: 500;
+    margin-top: 7px;
+   
+}
+
+.c h3{
+    color: #818181;
+    font-weight: 500;
+    margin-top: 7px;
+    
+}
+
+.a img{
+    height: 100px;
+    width: 100px;
+}
+
+.b img{
+    height: 100px;
+    width: 100px;
+}
+
+.c img{
+    height: 100px;
+    width: 100px;
+}
+
+.footer{
+    background-color: black;
+    color: yellow;
+    padding: 16px;
+}
+
+.footer_text {
+    text-align: center;
+}
